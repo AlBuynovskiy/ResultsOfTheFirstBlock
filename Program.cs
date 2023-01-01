@@ -12,5 +12,5 @@ if (value.Length <= 3)
     realSize++;
     }
 }
-Console.WriteLine(string.Join(Environment.NewLine, result, 0, realSize));
+Console.WriteLine("Длина массива из <=3 символов = " + string.Join(Environment.NewLine, result, 0, realSize));
 Console.ReadKey(true);
