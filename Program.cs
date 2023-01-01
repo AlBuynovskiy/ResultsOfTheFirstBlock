@@ -1,10 +1,10 @@
-﻿string[] M;
-            Console.WriteLine("Введите массив строк через пробел");
+﻿string[] m;
+            Console.WriteLine("Введите массив строк через пробел: ");
             string stroka = Console.ReadLine();
-            M = stroka.Split(' ');
-            var result = new string[M .Length];
+            m = stroka.Split(' ');
+            var result = new string[m.Length];
             var realSize = 0;
-            foreach (var value in M )
+            foreach (var value in m )
             {
                 if (value.Length <= 3)
                 {
