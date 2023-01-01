@@ -1,7 +1,7 @@
 ﻿string[] m;
-            Console.WriteLine("Введите массив строк через пробел: ");
-            string stroka = Console.ReadLine();
-            m = stroka.Split(' ');
+Console.WriteLine("Введите массив строк через пробел: ");
+            string storeArray = Console.ReadLine();
+            m = storeArray.Split(' ');
             var result = new string[m.Length];
             var realSize = 0;
             foreach (var value in m )
